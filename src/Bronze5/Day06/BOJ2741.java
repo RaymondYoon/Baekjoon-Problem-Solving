@@ -1,17 +1,14 @@
-package Bronze5.Day3;
+package Bronze5.Day06;
 
 import java.util.Scanner;
 
-public class BOJ2739 {
+public class BOJ2741 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
 
-        for(int i = 1; i < 10 ; i++){
-            System.out.println(N + " * " + i + " = " + N * i);
-
+        for(int i = 1; i <= N; i++){
+            System.out.println(i);
         }
-
-
     }
 }

@@ -1,4 +1,4 @@
-package Bronze5.Day1;
+package Bronze5.Day01;
 
 public class BOJ10718 {
     public static void main(String[] args) {
