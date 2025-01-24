@@ -7,10 +7,7 @@ public class BOJ17362 {
         Scanner sc = new Scanner(System.in);
         int[] pattern = {1,2,3,4,5,4,3,2};
         int N = sc.nextInt();
-
         int fingerIndex = (N-1) % pattern.length;
-        int finger = pattern[fingerIndex];
-
-        System.out.println(finger);
+        System.out.println(pattern[fingerIndex]);
     }
 }
